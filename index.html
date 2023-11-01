@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Compilador de C</h1>
+        </div>
+    </header>
+    <main class="wrapper" id="main">
+        <div class="content">
+            <div id="environment">
+                <div id="controls"></div>
+                <div id="coding">
+                    <div id="lines">
+                        <h3>1</h3>
+                    </div>
+                    <textarea id="code" oninput="autoSize(this)"></textarea>
+                </div>
+                <div id="errorlog"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
